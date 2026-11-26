@@ -3,7 +3,11 @@
   <img src="assets/banner-light.svg" alt="Fabrizzio Riccelli. Design, data and artificial intelligence. São Paulo, Brazil." width="100%">
 </picture>
 
-I trained as a graphic designer, spent three and a half years in marketing at Santander, and kept ending up in the same place: next to a recurring, manual routine that should have been a tool. I now study artificial intelligence at FIAP and build those tools on purpose, with Python, data and machine learning.
+**Data Analytics · Machine Learning · Artificial Intelligence · Business & Technology**
+
+With a background in graphic design and over three years of experience in marketing, growth, and digital performance at Santander Brasil (2023–2026), my work brings together data, technology, and business.
+
+Currently studying Artificial Intelligence at FIAP, I develop projects in data analytics, machine learning, process automation, and digital products, combining analytical thinking with an understanding of customer needs and business objectives.
 
 <sub>English · <a href="README.pt-BR.md">Português</a></sub>
 
