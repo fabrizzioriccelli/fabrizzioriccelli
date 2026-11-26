@@ -5,55 +5,77 @@
 
 **Data Analytics · Machine Learning · Artificial Intelligence · Business & Technology**
 
-With a background in graphic design and over three years of experience in marketing, growth, and digital performance at Santander Brasil (2023–2026), my work brings together data, technology, and business.
+A background in graphic design and more than three years of experience at Santander Brasil (2023–2026), across marketing, growth and digital performance, provide a business-oriented foundation for technology.
 
-Currently studying Artificial Intelligence at FIAP, I develop projects in data analytics, machine learning, process automation, and digital products, combining analytical thinking with an understanding of customer needs and business objectives.
+Currently studying Artificial Intelligence at FIAP, with projects spanning data analytics, machine learning, process automation and digital products. The focus is on connecting analytical thinking, customer needs and business objectives to practical, measurable solutions.
 
-<sub>English · <a href="README.pt-BR.md">Português</a></sub>
+[Portfolio](https://fabrizzioriccelli.com.br) · [LinkedIn](https://www.linkedin.com/in/fabrizzioriccelli/) · [Behance](https://www.behance.net/fabrizzioriccelli) · [Português](README.pt-BR.md)
 
-### What I build
+## Areas of focus
 
-- **Internal tools for non-technical teams.** Software that runs where the team already works, with no installation, and with rules that protect the data: a report tool that never invents a number.
-- **Data pipelines and models on messy inputs.** Ingestion from inconsistent sources, explicit quality rules, and models that I check against a simple baseline before trusting them.
-- **The interface around it.** I come from art direction and UX, so the output also has to be understood by the person who reads it on a phone.
+- **Data Analytics & BI:** exploratory analysis, ETL, data quality, business indicators, dashboards and visualization.
+- **Applied Machine Learning:** supervised learning, predictive analytics, baseline comparisons and model evaluation.
+- **Development & Automation:** browser-based tools, data workflows, APIs and automated testing.
+- **Business & Product:** marketing analytics, digital growth, financial services and user-centered product development.
 
-Most of my recent code is written with AI coding agents. My part is the problem framing, the acceptance criteria, the review and the tests. Each repository says how it was built and by whom.
+## Selected projects
 
-### Selected work
+### Professional case
 
-**[Emulador Report](https://github.com/fabrizzioriccelli/emulador-report-case)** · Professional case, public demo with fictional data · 2026<br>
-A monthly marketing performance report, edited directly on the page and exported as an Outlook-ready executive email. Vanilla JavaScript, IndexedDB, MIME generation in the browser, 18 Playwright and Node test suites. I owned it end to end, from the problem to 41 reviewed pull requests.
+**[Emulador Report PF & PJ](https://github.com/fabrizzioriccelli/emulador-report-case)** · Reporting automation & marketing analytics · 2026
 
-**[Brisa](https://github.com/fabrizzioriccelli/brisa-heat-alert)** · Academic, FIAP Global Solution, team of five · 2026<br>
-Heat-risk alerts for public schools. A Random Forest predicts the afternoon heat-index peak from morning conditions (MAE 1.33 °C against a 1.85 °C baseline on 2024–2025 data from five capitals), ESP32 sensors measure the classrooms, and a Python and SQLite backend decides when to alert. I built the technical work: data, models, firmware, backend and dashboard.
+Browser-based editing of monthly performance reports with HTML and Outlook-ready email exports. JavaScript, IndexedDB, client-side MIME generation and 18 Playwright/Node test suites. Led the project from requirements and acceptance criteria to review and testing, including 41 reviewed pull requests. Independent public portfolio demonstration with fictional data; not an official Santander product.
 
-**Frota Pulse** · Academic, FIAP × Sem Parar Empresas, team of five · 2026<br>
-Where a fleet is losing money. [Sprint 1](https://github.com/fabrizzioriccelli/frota-pulse-sprint-1) specifies the product and the data model. [Sprint 2](https://github.com/fabrizzioriccelli/frota-pulse-sprint-2) runs it: 12 heterogeneous sources, 17 data-quality rules, peer benchmarks and a decision tree on simulated ESP32 telemetry (82.8% accuracy against a 73.6% baseline). Synthetic data throughout. I built the technical work in both repositories.
+### Academic projects · FIAP
 
-**[Faro](https://github.com/fabrizzioriccelli/faro-real-estate-intelligence)** · Personal project, in progress · 2026<br>
-Social-housing market intelligence for São Paulo, built only on open government data. It links building permits to property-transfer records to separate first sales, resales and sales above the legal price cap. A daily routine audits the data before publishing a bulletin.
+**[Brisa](https://github.com/fabrizzioriccelli/brisa-heat-alert)** · Global Solution 2026.2 · Applied AI & IoT · Team project
 
-**[fabrizzioriccelli.com.br](https://github.com/fabrizzioriccelli/portfolio)** · Personal project · 2026<br>
-The source of my portfolio. A static site generator in standard-library Python, vanilla JavaScript, a hand-written WebGL hero and a strict content security policy.
+Predictive heat-risk monitoring for public schools using Python, Random Forest, ESP32, SQLite and Streamlit. The team analyzed 263,040 real hourly meteorological records from five Brazilian capitals. Regression MAE of 1.33 °C versus a 1.85 °C baseline; classification accuracy of 83.6%. Technical contribution: data, models, firmware, backend and dashboard, with AI-assisted development.
 
-### Technical expertise
+**Frota Pulse** · Enterprise Challenge, FIAP × Sem Parar Empresas · Data pipelines & ML · Team project
 
-**Working with** · Python (pandas, NumPy, scikit-learn), SQL and SQLite, JavaScript, HTML and CSS, Jupyter, Streamlit, Playwright, Git<br>
-**Machine learning** · Supervised learning (Random Forest, decision trees), time-based validation, baselines and error analysis<br>
-**Hardware** · ESP32 firmware in C++ (Arduino), sensor simulation on Wokwi<br>
-**Design and product** · UX/UI, art direction, brand identity, design tokens, product discovery<br>
-**Studying now** · Deep learning, NLP and generative AI (FIAP)
+[Sprint 1 — Specification](https://github.com/fabrizzioriccelli/frota-pulse-sprint-1) · [Sprint 2 — Implementation](https://github.com/fabrizzioriccelli/frota-pulse-sprint-2)
 
-### Background
+Fleet cost intelligence with Python: 75,413 simulated records, 12 heterogeneous input files, 17 data-quality rules and peer benchmarks. A decision tree achieved 82.8% accuracy on the vehicle-month test set versus a 73.6% baseline. Technical contribution: documentation, data workflows, implementation review and testing. All fleet data are synthetic; results demonstrate the method rather than actual customer outcomes.
 
-**Santander Brasil** · 2023–2026 · Marketing Analyst, Digital Growth & Performance, after three internships in the same company. I worked between the Growth and Branding teams on full-funnel campaigns, media, CRM and app store optimization, including the launch of Select Global, an international account for high-income clients.<br>
-**ALS** and **Hanok Branding** · 2022–2023 · Art direction and brand identity for agencies and their clients.
+**[FarmTech Solutions](https://github.com/fabrizzioriccelli/farmtech-solutions)** · Agricultural analytics · Team project
 
-### Education
+Python and R application for agricultural area and input calculations, statistical analysis, CSV data management and weather API integration. [Live prototype](https://farmtech-solutions-demo.vercel.app/dashboard).
 
-**FIAP** · Technologist degree in Artificial Intelligence · 2026–2028, in progress<br>
-**Universidade Anhembi Morumbi** · Bachelor's degree in Graphic Design · 2022–2025
+### Independent & exploratory projects
 
-### Connect
+**[Faro](https://github.com/fabrizzioriccelli/faro-real-estate-intelligence)** · Real estate market intelligence · In progress
 
-[fabrizzioriccelli.com.br](https://fabrizzioriccelli.com.br) · [LinkedIn](https://www.linkedin.com/in/fabrizzioriccelli/) · [Behance](https://www.behance.net/fabrizzioriccelli)
+Research and exploratory tooling for public housing-market data (HIS/HMP) in São Paulo, emphasizing traceability, data auditing and market analysis. The complete platform remains under development.
+
+**[Personal portfolio](https://github.com/fabrizzioriccelli/portfolio)** · Web development & design systems
+
+Static site generator using the Python standard library, vanilla JavaScript, WebGL and a strict content security policy. [Visit the portfolio](https://fabrizzioriccelli.com.br).
+
+## Technical toolkit
+
+| Domain | Tools & methods |
+| --- | --- |
+| Data & analytics | Python, SQL, R, pandas, NumPy, SQLite, Excel, Power BI, Jupyter, Streamlit, EDA, ETL, data quality |
+| Machine learning | scikit-learn, Random Forest, decision trees, supervised learning, statistics, validation, error analysis |
+| Development & automation | JavaScript, HTML, CSS, Git, GitHub, Playwright, APIs, IndexedDB |
+| IoT & embedded systems | ESP32, C++ (Arduino), Wokwi |
+| Business & product | Marketing analytics, CRM, growth, KPIs, digital performance, UX/UI, product discovery, design systems |
+| Currently studying | Deep learning, NLP, generative AI |
+
+Recent development uses AI coding agents, with personal contributions focused on problem framing, acceptance criteria, code review and testing. Project documentation identifies team contributions, real versus synthetic data and prototype limitations.
+
+## Professional background
+
+**Santander Brasil · 2023–2026** — Former Marketing Analyst, Digital Growth & Performance, following three internships within the bank. Experience in growth, branding, full-funnel campaigns, CRM, media, ASO, performance analysis and digital financial products. Selected initiatives include Santander Rewards, One App, Select Global, Conta para Menores, Tamo Junto, FastCo Money and Protocolo Alice. This background informs the understanding of customer needs, financial services and the business context behind technical decisions.
+
+**ALS & Hanok Branding · 2022–2023** — Art direction, brand identity and visual communication, providing a foundation in design and user experience.
+
+## Education
+
+**FIAP** — Technologist degree in Artificial Intelligence · 2026–2028 (in progress)  
+**Universidade Anhembi Morumbi** — Bachelor's degree in Graphic Design · 2022–2025
+
+---
+
+São Paulo, Brazil · [LinkedIn](https://www.linkedin.com/in/fabrizzioriccelli/) · [Portfolio](https://fabrizzioriccelli.com.br)
